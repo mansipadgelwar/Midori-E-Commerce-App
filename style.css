@@ -1,0 +1,7 @@
+@import url('https://midori-ui.netlify.app/style.css');
+@import url('/homepage/homepage.css');
+
+:root{
+    --vanilla: rgb(220, 219, 219);
+    --light-grey: rgb(237, 236, 236);
+}
