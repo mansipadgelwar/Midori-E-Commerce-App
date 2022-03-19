@@ -1,9 +1,3 @@
-.btn-link{
-    position: absolute;
-    top: -15;
-    right: 0;
-}
-
 .mycart-container{
     margin: 2.5rem;
     display: flex;
@@ -19,14 +13,20 @@
     gap: 5px;
 }
 
+.btn-link{
+    position: absolute;
+    top: -15;
+    right: 0;
+}
+
 .quantity-container > .btn{
     padding: 0.3rem;
-    border: 2px solid black;
-    color: black;
+    border: 2px solid var(--raisin-black);
+    color: var(--raisin-black);
 }
 
 .quantity-display{   
-    border: 2px solid black;
+    border: 2px solid var(--raisin-black);
     padding: 0 1rem;
     padding-top: 0.2rem;
 }
