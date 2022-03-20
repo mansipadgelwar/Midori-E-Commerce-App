@@ -13,7 +13,7 @@
     gap: 5px;
 }
 
-.btn-link{
+.mycart-description > .btn-link{
     position: absolute;
     top: -15;
     right: 0;
