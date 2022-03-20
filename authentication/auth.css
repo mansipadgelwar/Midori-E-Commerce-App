@@ -46,7 +46,7 @@
     flex-direction: column;    
     align-content: center;    
     flex-wrap: wrap;
-    width: 25rem;
+    min-width: 25rem;
     padding: 1rem; 
     box-shadow: var(--btn-box-shadow);
     color: var(--light-raisin-black);  
