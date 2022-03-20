@@ -2,6 +2,7 @@
 @import url('/homepage/homepage.css');
 @import url('/mycart/mycart.css');
 @import url('/mywishlist/wishlist.css');
+@import url('/authentication/auth.css');
 
 :root{
     --vanilla: rgb(220, 219, 219);
