@@ -15,7 +15,7 @@
 }
 
 .authentication-form-container{     
-    margin-top: 30px;
+    margin-top: 1.88rem;
     z-index: 1;     
 }
 
@@ -24,12 +24,16 @@
 }
 
 .input-with-icon > input{
-    max-width: 368px;
+    max-width: 23rem;
+}
+
+.input-icon > input{
+    max-width: 21.88rem;
 }
 .icons-right{
     position: absolute;
-    right: 25px;
-    bottom: 23px;
+    right: 1.56rem;
+    bottom: 1.43rem;
     z-index: 1;
     cursor: pointer;
     border: none;
@@ -79,8 +83,16 @@
     justify-content: center;
 }
 
+.login-form .checkbox-container{
+    justify-content: space-between;
+}
+
 .checkbox{
     margin-top: 0.15rem;
+}
+
+.login-form{
+    margin-top: 6.25rem;
 }
 
 .logout-content{    
