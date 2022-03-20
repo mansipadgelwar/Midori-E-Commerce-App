@@ -30,6 +30,7 @@
 .input-icon > input{
     max-width: 21.88rem;
 }
+
 .icons-right{
     position: absolute;
     right: 1.56rem;
@@ -37,8 +38,7 @@
     z-index: 1;
     cursor: pointer;
     border: none;
-    background-color: white ;
-
+    background-color: var(--white);
 }
 
 .form{    
@@ -58,7 +58,7 @@
 }
 
 .input-label{
-    color: black;
+    color: var(--raisin-black);
     text-align: left;
 }
 
@@ -68,7 +68,7 @@
 
 .checkbox-detail{
     margin-left: 0.5rem;
-    color: black;
+    color: var(--raisin-black);
 }
 
 .form-container .input-icon .input{
