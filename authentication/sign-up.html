@@ -29,30 +29,38 @@
             </div>
         </header>
     
-        <article class="form-container">
-            <div class="image-container">
-                <img src="/images/Plant4.jpg" alt="signup_background_image" class="img-responsive">
-             </div>           
-            <div class="authentication-form-container">
+        <article class="form-container">           
+          <div class="authentication-form-container">
            <form class="form" action="">
                <h3 class="h3">SIGN UP</h3>
                <label for="email" class="input-label">Email: </label>
-               <input class="input" type="text" placeholder="Text Input"/>  
+               <input class="input" type="email" id="email" name="email" placeholder="Enter your email ID" required/>  
     
-               <label for="email" class="input-label">Email: </label>
-               <input class="input" type="text" placeholder="Text Input"/>  
+               <label for="fname" class="input-label">First Name: </label>
+               <input class="input" type="text" id="fname" name="fname" placeholder="Enter your first name" required/>  
     
-                <label for="email" class="input-label">Email: </label>
-                <input class="input" type="text" placeholder="Text Input"/>  
+                <label for="lname" class="input-label">Last Name: </label>
+                <input class="input" type="text" id="lname" name="lname" placeholder="Enter your last name" required/>  
     
-                <label for="email" class="input-label">Email: </label>
-                <input class="input" type="text" placeholder="Text Input"/>  
-    
-                <label for="email" class="input-label">Email: </label>
-                <input class="input" type="text" placeholder="Text Input"/>  
-    
+               
+                <div class="input-with-icon">
+                    <label for="password" class="input-label">Password: </label>
+                    <input class="input" type="password" id="password" name="password" placeholder="Enter password" required/>                
+                    <button class="btn-link material-icons icons-right">
+                        visibility
+                    </button>                   
+                </div>
+
+                <div class="input-with-icon">
+                    <label for="confirm-password" class="input-label">Confirm Password: </label>
+                    <input class="input" type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required/>         
+                    <button class="btn-link material-icons icons-right">
+                        visibility
+                    </button>                
+                </div>         
+  
                 <div class="checkbox-container">
-                    <input class="checkbox" type="checkbox" name="" id="">
+                    <input class="checkbox" type="checkbox">
                     <div class="checkbox-detail">I accept all terms and conditions</div>
                 </div>
     

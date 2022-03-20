@@ -1,5 +1,5 @@
 .authentication-page{
-    height: 80vh; 
+    height: 100vh; 
     position: relative; 
 }
 
@@ -14,17 +14,27 @@
     padding-bottom: 1rem;
 }
 
-.authentication-form-container{    
-   /* background: rgba(222, 222, 222, 0.8);
-   backdrop-filter: saturate(185%) blur(10%) brightness(15%);
-   opacity: 0.8; */    
-    background: rgba(255, 255, 255, 0.19);
-    border-radius: 1rem;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8.3px);
-    -webkit-backdrop-filter: blur(8.3px);   
-    z-index: 999;   
+.authentication-form-container{     
+    margin-top: 30px;
+    z-index: 1;     
+}
+
+.input-with-icon{
+    position: relative;
+}
+
+.input-with-icon > input{
+    max-width: 368px;
+}
+.icons-right{
     position: absolute;
+    right: 25px;
+    bottom: 23px;
+    z-index: 1;
+    cursor: pointer;
+    border: none;
+    background-color: white ;
+
 }
 
 .form{    
@@ -32,15 +42,11 @@
     flex-direction: column;    
     align-content: center;    
     flex-wrap: wrap;
-    width: 22rem;
-    padding: 1rem;  
+    width: 25rem;
+    padding: 1rem; 
     box-shadow: var(--btn-box-shadow);
     color: var(--light-raisin-black);  
     font-weight: bolder;
-}
-
-.form .input{
-    margin: 0.4rem;
 }
 
 .h3, .checkbox, .btn-link{
@@ -48,7 +54,7 @@
 }
 
 .input-label{
-    color: white;
+    color: black;
     text-align: left;
 }
 
@@ -58,10 +64,9 @@
 
 .checkbox-detail{
     margin-left: 0.5rem;
-    color: white;
+    color: black;
 }
 
-/* signin */
 .form-container .input-icon .input{
     padding-left: 2.4rem;
 }
@@ -71,7 +76,7 @@
     padding: 0.5rem;
     display: flex;
     flex-direction: row; 
-    justify-content: space-between; 
+    justify-content: center;
 }
 
 .checkbox{
