@@ -1,0 +1,88 @@
+.authentication-page{
+    height: 80vh; 
+    position: relative; 
+}
+
+.form-container{   
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+
+.form-container .h3{
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+}
+
+.authentication-form-container{    
+   /* background: rgba(222, 222, 222, 0.8);
+   backdrop-filter: saturate(185%) blur(10%) brightness(15%);
+   opacity: 0.8; */    
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);   
+    z-index: 999;   
+    position: absolute;
+}
+
+.form{    
+    display: flex;
+    flex-direction: column;    
+    align-content: center;    
+    flex-wrap: wrap;
+    width: 22rem;
+    padding: 1rem;  
+    box-shadow: var(--btn-box-shadow);
+    color: var(--light-raisin-black);  
+    font-weight: bolder;
+}
+
+.form .input{
+    margin: 0.4rem;
+}
+
+.h3, .checkbox, .btn-link{
+    text-align: center;
+}
+
+.input-label{
+    color: white;
+    text-align: left;
+}
+
+.form .btn-link{
+    margin: 0;
+}
+
+.checkbox-detail{
+    margin-left: 0.5rem;
+    color: white;
+}
+
+/* signin */
+.form-container .input-icon .input{
+    padding-left: 2.4rem;
+}
+
+.checkbox-container{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.checkbox{
+    margin-top: 0.15rem;
+}
+
+.logout-content{    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
