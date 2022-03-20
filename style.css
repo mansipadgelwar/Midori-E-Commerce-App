@@ -1,6 +1,7 @@
 @import url('https://midori-ui.netlify.app/style.css');
 @import url('/homepage/homepage.css');
 @import url('/mycart/mycart.css');
+@import url('/mywishlist/wishlist.css');
 
 :root{
     --vanilla: rgb(220, 219, 219);
