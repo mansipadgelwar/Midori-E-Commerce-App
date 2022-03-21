@@ -13,6 +13,8 @@
     position: absolute;
     background-color: var(--white);
     z-index: 1;
+    color: var(--raisin-black);
+    text-decoration: none;
     cursor: pointer;
     width: 100%;
     top: 37%;
