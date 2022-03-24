@@ -15,8 +15,12 @@
 
 .mycart-description > .btn-link{
     position: absolute;
-    top: -15;
-    right: 0;
+    top: 0px;
+    right: 0px;
+}
+
+.btn-link .material-icons{
+    color: black;
 }
 
 .quantity-container > .btn{
