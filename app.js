@@ -1,8 +1,10 @@
 const btnShopNow = document.querySelector("#btn-shop-now");
 
-btnShopNow.addEventListener("click",openLoginPage);
+btnShopNow.addEventListener("click",openProductPage);
 
-function openLoginPage(e){
+function openProductPage(e){
+    console.log("product");
     e.preventDefault();
     window.open("/product/product.html");
 }
+
