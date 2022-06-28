@@ -1,4 +1,4 @@
-.mywishlist-land-page {
+.wishlist-page {
   max-width: 62.5rem;
   display: flex;
   flex-direction: row;
@@ -9,6 +9,6 @@
   gap: 0.62rem;
 }
 
-.mywishlist-land-page .vertical-card .material-icons-outlined {
+.vertical-card .material-icons-outlined {
   color: #f0586a;
 }
